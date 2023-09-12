@@ -1,14 +1,18 @@
 
 <script setup>
-const props = defineProps({
-    guitarra:{
-        type:Object,
-        required:true
-    }
-})
+
+    const props = defineProps({
+        guitarra:{
+            type:Object,
+            required:true
+        }
+    })
+
+    defineEmits(['agregar-carrito'])
 </script>
 
 <template>
+
     <div  class="col-md-6 col-lg-4 my-4 row align-items-center">
         <div class="col-4">
             <img class="img-fluid" v-bind:src="'/img/' + guitarra.imagen + '.jpg'" :alt="'imagen guitarra ' + guitarra.nombre">
@@ -20,9 +24,11 @@ const props = defineProps({
             <button 
                 type="button"
                 class="btn btn-dark w-100 "
-                >Agregar al Carrito</button>
+                v-on:click=" $emit('agregar-carrito',guitarra)"
+                >Añadir a la cesta</button>
         </div>
-    </div><!-- FIN GUITARRA -->
+    </div>
+
 </template>
 
 
