@@ -1,7 +1,30 @@
-# Vue 3 + Vite
+# GuitarLA VUE
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<image src="public\guitarLA-readme.jpg" alt="imagen proyecto"/>
 
-## Recommended IDE Setup
+## Descripción
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Creación de un carrito de compras para una tienda de guitarras interactivo que permite:
+
+    🎶 Añadir tus guitarras favoritas a tu carrito con un solo clic.
+    🔄 Cambiar las cantidades de las guitarras según tus necesidades.
+    🗑️ Eliminar guitarras de tu carrito con facilidad.
+    💰 Calcular el total de tu compra en tiempo real.
+
+En este proyecto he trabajado con los siguientes conceptos de VUE:
+
+    🌟 Componentes de un solo archivo para una estructura organizada.
+    🔄 Gestión de estado con State para una experiencia de usuario fluida.
+    🚀 Comunicación entre componentes utilizando eventos y Emits.
+    📦 Uso de props para transmitir datos entre componentes de manera eficiente.
+    🔍 Observación de cambios con watches para una interactividad asombrosa.
+
+## Tecnologías utilizadas
+
+![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![CSS](	https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## Proyecto Desplegado
+
+Para ver el resultado final pincha en el siguiente enlace: https://fanciful-medovik-d25805.netlify.app/
