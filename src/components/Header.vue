@@ -43,7 +43,7 @@ const totalPagar = computed(()=> {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr v-for="producto in carrito">
+                                        <tr v-for="producto in carrito" :key="producto.id">
                                             <td>
                                                 <img class="img-fluid" 
                                                 :src="'/img/' + producto.imagen + '.jpg'" 
